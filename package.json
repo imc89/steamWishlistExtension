@@ -1,0 +1,14 @@
+{
+  "name": "steamoffers",
+  "version": "1.0.0",
+  "description": "steam wishlist extension.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "IMC89",
+  "license": "ISC",
+  "dependencies": {
+    "alpinejs": "^2.7.3"
+  }
+}
