@@ -1,0 +1,33 @@
+{
+    "name": "Steam Store Wishlist",
+    "description": "Realiza un seguimiento de los juegos que deseas comprar en Steam Store y sus precios.",
+    "version": "1.0.0",
+    "author": "IMC89",
+    "default_locale": "en",
+    "permissions": [
+      "activeTab",
+      "alarms",
+      "storage",
+      "https://store.steampowered.com/*"
+    ],
+    "browser_action": {
+      "default_popup": "popup.html",
+      "default_title": "Steam Store Wishlist",
+      "default_icon": {
+        "48": "steam-icon-48.png",
+        "128": "steam-icon-128.png"
+      }
+    },
+    "icons": {
+      "48": "steam-icon-48.png",
+      "128": "steam-icon-128.png"
+    },
+    "background": {
+      "scripts": [
+        "background.js"
+      ],
+      "persistent": false
+    },
+    "content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'",
+    "manifest_version": 1
+  }

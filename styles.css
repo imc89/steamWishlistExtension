@@ -1,0 +1,7 @@
+.info-block {
+    font-size: 16px;
+    border: 1px solid;
+    width: 306px;
+    padding: 10px;
+    color: var(--color-gray);
+  }
